@@ -1,7 +1,7 @@
 # AIPscripts_DLG
 Scripts used to create AIPs for the Digital Library of Georgia for ingest into preservation repository
 ************************
-These files are presented with no guarantees of fitness for a particular purpose, safety, or that they will work for your needs. They are very specific to our workflow and rely on a particular folder structure (noted below) to work. Please be sure to **_always_** work from a copy of your data! However, with those caveats in mind I hope you can figure out a way to reuse them to save some time and trouble.
+These files are presented with no guarantees of fitness for a particular purpose, safety, or that they will work for your needs. They are very specific to our workflow and rely on a particular folder structure (noted below) to work. Please be sure to **always** work from a copy of your data! However, with those caveats in mind I hope they are useful.
 ************************
 This process requires a number of dependencies that are not included in this distribution, but all are freely available online. All of these should be available from your system path so that they can be run on the command line:
 
@@ -28,18 +28,20 @@ NB: the dlg-fits-to-master-stylesheet.xsl will fail if there are conflicting ide
 
 ## Part 1:
 
-In order for this to work you need to start with this folder structure
-Working_folder
-	[AIP_NAME] <--folder named with name to be given to eventual AIP
-		objects 
-			[NAME OF DIGITAL OBJECT] <-- generally this is the same as the AIP name. Your files are in this folder.
+In order for this to work you need to start with this folder structure within the working directory:
+```
+[Working directory]
+--[AIP_NAME] <-- eventually will become top level of AIP
+----objects 
+------[DIGITAL_OBJECT_NAME] <-- this folder contains the files that comprise your digital object
+```
 
 The batch files in the make_stub_filesystem directory can help you arrange files into this structure.
 
 ## Part 2:
 
 You will also need an xml file containing AIP level metadata. This can be created using a spreadsheet and extracted using XMLBlueprint, Microsoft Excel, or some other utility that is in that line of work. It should look like this example: 
-
+```
 <aip_level>
 	<item>
 		<aip_id>auu_scimgbng_sc-002-0046</aip_id>
@@ -61,6 +63,7 @@ You will also need an xml file containing AIP level metadata. This can be create
 	</item>
 	
 </aip_level>
+```
 
 Where <aip_id> matches the name of the folder referenced in PART 1.
 
