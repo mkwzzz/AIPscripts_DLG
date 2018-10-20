@@ -1,0 +1,3 @@
+Move the runfits_external.bat file to the home directory of your FITS 1.3 installation (where fits.bat is located). To run this script, navigate to the FITS directory and double click it. It will ask you to input the path to the directory containing the folders you are transforming into AIPs (working directory). This can be on your local drive (c) or on an external drive (any letter). Make sure you include the full path including the drive letter (ex: D:\my_working_directory). 
+
+When called by this script, FITS will recursively process the directories in the working folder and put the output (*.fits.xml) in the working directory[aip_id]\objects folder. 
