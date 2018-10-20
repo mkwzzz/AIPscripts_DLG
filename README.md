@@ -17,9 +17,9 @@ Grep for Windows 2.5.4 http://gnuwin32.sourceforge.net/packages/grep.htm
 
 In addition to the files in this repository, you will also need to download the following and make sure the executable files are available in your working directory: 
 
-	-Find and Replace Text (http://fart-it.sourceforge.net/) fart.exe must be in your working folder
-	-Saxon HE XSLT processor (http://saxon.sourceforge.net/) saxon9he.jar must be in your working folder. If the name of the jar file you download is different, you will need to edit this in the stylesheets.
-	-python-bagit (https://github.com/LibraryOfCongress/bagit-python) bagit.py must be in your working folder
+-Find and Replace Text (http://fart-it.sourceforge.net/) fart.exe must be in your working folder
+-Saxon HE XSLT processor (http://saxon.sourceforge.net/) saxon9he.jar must be in your working folder. If the name of the jar file you download is different, you will need to edit this in the stylesheets.
+-python-bagit (https://github.com/LibraryOfCongress/bagit-python) bagit.py must be in your working folder
 	
 
 NB: the dlg-fits-to-master-stylesheet.xsl will fail if there are conflicting identifications in your FITS xml output. You may need to adjust the tools used in FITS to reconcile conflicts or adjust the stylesheet to accomidate conflicts if you run into issues with this.
