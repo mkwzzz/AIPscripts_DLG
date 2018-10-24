@@ -1,0 +1,47 @@
+<aip_level>
+	<item>
+		<aip_id>chat_scp_cvl001</aip_id>
+		<aip_version>1</aip_version>
+		<group_uri>http://archive.libs.uga.edu/dlg</group_uri>
+		<aip_title>Picture of a womanless wedding</aip_title>
+		<aip_rights>http://rightsstatements.org/vocab/NoC-US/1.0/</aip_rights>
+		<dlg_repo>chat</dlg_repo>
+		<dlg_coll>scp</dlg_coll>
+	</item>
+	<item>
+		<aip_id>chat_scp_cvl002</aip_id>
+		<aip_version>1</aip_version>
+		<group_uri>http://archive.libs.uga.edu/dlg</group_uri>
+		<aip_title>Photograph of Lucius, Tom, Lamar, and Harris Chappel</aip_title>
+		<aip_rights>http://rightsstatements.org/vocab/NoC-US/1.0/</aip_rights>
+		<dlg_repo>chat</dlg_repo>
+		<dlg_coll>scp</dlg_coll>
+	</item>
+	<item>
+		<aip_id>chat_scp_cvl003</aip_id>
+		<aip_version>1</aip_version>
+		<group_uri>http://archive.libs.uga.edu/dlg</group_uri>
+		<aip_title>Postcard of Library, Alabama Polytechnic Institute</aip_title>
+		<aip_rights>http://rightsstatements.org/vocab/NoC-US/1.0/</aip_rights>
+		<dlg_repo>chat</dlg_repo>
+		<dlg_coll>scp</dlg_coll>
+	</item>
+	<item>
+		<aip_id>chat_scp_cvl004</aip_id>
+		<aip_version>1</aip_version>
+		<group_uri>http://archive.libs.uga.edu/dlg</group_uri>
+		<aip_title>Postcard of First Baptist Church and Library, Gadsden, ALa</aip_title>
+		<aip_rights>http://rightsstatements.org/vocab/NoC-US/1.0/</aip_rights>
+		<dlg_repo>chat</dlg_repo>
+		<dlg_coll>scp</dlg_coll>
+	</item>
+	<item>
+		<aip_id>chat_scp_cvl005</aip_id>
+		<aip_version>1</aip_version>
+		<group_uri>http://archive.libs.uga.edu/dlg</group_uri>
+		<aip_title>Postcard of Carnegie Library, Montgomery, Ala</aip_title>
+		<aip_rights>http://rightsstatements.org/vocab/NoC-US/1.0/</aip_rights>
+		<dlg_repo>chat</dlg_repo>
+		<dlg_coll>scp</dlg_coll>
+	</item>
+</aip_level>
